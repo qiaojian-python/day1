@@ -7,3 +7,8 @@ def index(request):
     print('this is first view')
 
     return HttpResponse("ok")
+
+
+def user_login(request):
+    print('this is dev view')
+    return HttpResponse('y')
