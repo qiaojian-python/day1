@@ -12,3 +12,6 @@ def index(request):
 def user_login(request):
     print('this is dev view')
     return HttpResponse('y')
+
+def test1(request):
+    return HttpResponse('test中文')
